@@ -9,9 +9,12 @@ require "View.php";
         {
             $model = new Model();
             $view = new View();
-            $string = $model->get_string();
-            $view->render($string);
+
+            $name = $model->get_Name();
+
+            $view->render($name);
         }
+        
         
     }
 ?>

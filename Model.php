@@ -2,15 +2,25 @@
 
     class Model
     {
-        public $string;
+        public $name;
+        public $product;
 
         public function __construct()
+       
         {
-            $this->string = "OLÁ Mundo..";
+            $this->name = "Gersom.";
+            $this->product = "";
         }
-        public function get_string()
+
+        public function get_Name()
         {
-            return $this->string;
+            return $this->name;
         }
+
+        public function get_Product()
+        {
+            return $this->product;
+        }
+
     }
 ?>

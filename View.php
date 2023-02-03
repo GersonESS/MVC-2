@@ -2,8 +2,8 @@
 
 class View
 {
-    public function render($string)
+    public function render($content)
     {
-        echo $string;
+        echo "<h1>" . "$content" . "</h1>";
     }
 }
