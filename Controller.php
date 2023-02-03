@@ -15,6 +15,14 @@ require "View.php";
             $view->render($name);
         }
         
-        
+        public function product()
+        {
+            $model = new Model();
+            $view = new View();
+
+            $product = $model->get_Product();
+
+            $view->render($product);
+        }        
     }
 ?>
