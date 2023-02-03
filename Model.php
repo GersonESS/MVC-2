@@ -8,8 +8,8 @@
         public function __construct()
        
         {
-            $this->name = "Gersom.";
-            $this->product = "";
+            $this->name = "Gersom eUSTAQUIO";
+            $this->product = "hghghghghg";
         }
 
         public function get_Name()
